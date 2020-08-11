@@ -15,7 +15,6 @@
         "SharedArrayBuffer": "readonly"
     },
     "parser": "@typescript-eslint/parser",
-    "arrowParens": "off",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -29,6 +28,7 @@
         "react-hooks",
         "prettier"
     ],
+    "@typescript-eslint/explicit-function-return-type": "off",
     "rules": {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
